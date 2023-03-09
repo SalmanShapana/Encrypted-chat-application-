@@ -12,16 +12,23 @@ This project is an encrypted chat application built using Java Swing with Vigen√
 
 1. Clone this repository to your local machine:
 
-<img width="643" alt="Screenshot 2023-03-10 at 1 02 35 AM" src="https://user-images.githubusercontent.com/94341686/224180321-bd042289-5fc0-487a-84d8-1c1cd055a4d3.png">
+```
+git clone https://github.com/your-username/encrypted-chat-application.git
+```
 
 2. Compile and run the Server.java file to start the server:
 
-<img width="633" alt="Screenshot 2023-03-10 at 1 02 48 AM" src="https://user-images.githubusercontent.com/94341686/224180435-7ecc5c14-8564-4e94-a16a-d4f70a0e723f.png">
+```
+javac Server.java
+java Server
+```
 
 3. Compile and run the Client.java file to start the client:
 
-<img width="642" alt="Screenshot 2023-03-10 at 1 03 05 AM" src="https://user-images.githubusercontent.com/94341686/224180502-a7bb028e-3e71-4912-8a50-3503000b1a44.png">
-
+```
+javac Client.java
+java Client
+```
 4. The client GUI will appear on your screen. Enter your username and the IP address of the server to connect to.
 5. Once connected, you can securely communicate with other users using Vigen√®re cipher encryption.
 
